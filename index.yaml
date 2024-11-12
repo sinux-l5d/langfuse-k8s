@@ -3,6 +3,37 @@ entries:
   langfuse:
   - apiVersion: v2
     appVersion: "2"
+    created: "2024-11-12T09:39:34.866280258Z"
+    dependencies:
+    - condition: postgresql.deploy
+      name: postgresql
+      repository: oci://registry-1.docker.io/bitnamicharts
+      version: 15.x.x
+    description: Open source LLM engineering platform - LLM observability, metrics,
+      evaluations, prompt management.
+    digest: eecf450ac9d9f42346f5d947f367582d894c04bd385b7b0116f7f10935f5019f
+    home: https://langfuse.com/
+    icon: https://langfuse.com/langfuse_logo.png
+    keywords:
+    - langfuse
+    - llm
+    - observability
+    - prompt management
+    - metrics
+    maintainers:
+    - email: contact@langfuse.com
+      name: langfuse
+      url: https://langfuse.com/
+    name: langfuse
+    sources:
+    - https://github.com/langfuse/langfuse
+    - https://github.com/langfuse/langfuse-k8s
+    type: application
+    urls:
+    - https://github.com/sinux-l5d/langfuse-k8s/releases/download/langfuse-0.6.1/langfuse-0.6.1.tgz
+    version: 0.6.1
+  - apiVersion: v2
+    appVersion: "2"
     created: "2024-10-31T10:34:00.380373105Z"
     dependencies:
     - condition: postgresql.deploy
@@ -280,4 +311,4 @@ entries:
     urls:
     - https://github.com/langfuse/langfuse-k8s/releases/download/langfuse-0.1.0/langfuse-0.1.0.tgz
     version: 0.1.0
-generated: "2024-10-31T10:34:00.380395687Z"
+generated: "2024-11-12T09:39:34.866325893Z"
